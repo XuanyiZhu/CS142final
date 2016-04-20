@@ -1,32 +1,77 @@
 /*!!!!!!!!!!>>>>>>>>>>>>>>>>>>HOME PAGE<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!*/
 
 /*>>>>>>>>>>>>>>>>>>home page image slide<<<<<<<<<<<<<<<<<<<<<*/
-.homeSlides {
-    height: 40em;
-    width: 80%;
-    margin: 2% auto 2% auto;
-}
-img.slides {
-    width:100%;
+.slides {
+    width: 100%;
     height: 100%;
 }
-a.btn-left {
-    position: absolute;
-    top: 20em;
-    left: 11%;
-    background-color: white;
-    padding: 0.2em;
+.badge{
+    color:#fff;
+    display:inline-block;
+    padding-left:8px;
+    padding-right:8px;
+    font-weight:bold;
+    text-align:center;
+    border-radius:50%
 }
-a.btn-right {
-    position: absolute;
-    top: 20em;
-    right: 11%;
-    background-color: white;
-    padding: 0.2em;
+img.left-arrow,  img.right-arrow{
+    width: 100%;
 }
-.dot{
-    cursor:pointer;
-    height:13px;
-    width:13px;
-    padding:0
+.homeSlide{
+    position:relative;
+    width:80%;
+    margin:2% auto 2% auto;
+    height:40em;
+}
+@media screen and (max-width:600px){
+    li.rightArrow{float:none}
+}
+.leftArrow{
+    float:left;
+    padding-left: 16px;
+    bottom: 20em;
+    position: relative;
+    width:2%;
+}
+.rightArrow{
+    float:right;
+    padding-right:16px;
+    bottom: 20em;
+    position: relative;
+    width:2%;
+}
+.right-arrow:hover, .left-arrow:hover{
+    width:120%;
+}
+.center{
+    text-align:center;
+}
+.display-bottomleft{
+    position:absolute;
+    left:0;
+    bottom:0
+}
+.border{
+    border:1px solid #ccc;
+}
+.transparent{
+    background-color:transparent
+}
+.w3-white,.hover-white:hover{
+    color:#000;
+    background-color:#fff
+}
+
+.text-white{
+    color:#fff;
+}
+
+/*>>>>>>>>>>>>>>>>>>home page body<<<<<<<<<<<<<<<<<<<<<*/
+article {
+    margin:1% auto 1% auto;
+    width: 80%;
+}
+article h1 {
+    padding: 0em 10em 0 10em;
+    text-align: center;
 }
