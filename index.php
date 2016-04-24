@@ -1,8 +1,10 @@
 <?php
 include 'top.php';
+include 'nav.php';
 ?>
+
 <!--########################slide pictures##################################-->
-<div class="homeSlide">
+<div class="homeSlide" >
     <img class="slides" src="img/1.png" alt="">
     <img class="slides" src="img/2.png" alt="">
     <img class="slides" src="img/3.png" alt="">
@@ -32,7 +34,7 @@ include 'top.php';
         var x = document.getElementsByClassName("slides");
         var dots = document.getElementsByClassName("demo");
         if (n > x.length) {
-            slideIndex = 1
+            slideIndex = 1;
         }
         if (n < 1) {
             slideIndex = x.length;
@@ -49,7 +51,7 @@ include 'top.php';
 </script>
 <!--######################## end slide pictures ##################################-->
 <article>
-    <h1>Welcome to the UVM IEEE</h1>
+    <h1 class="center">Welcome to the UVM IEEE</h1>
     <p>The Institute of Electrical and Electronics Engineers at the University of 
         Vermont is a resource that provides support for electrical engineering 
         students outside the classroom. We conduct a lecture series throughout 

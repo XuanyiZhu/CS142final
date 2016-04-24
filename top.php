@@ -7,6 +7,7 @@
         <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
         <link rel='icon' type='img/x-icon' href='icon.ico' property='stylesheet'>
         <link rel='stylesheet' href='stylesheet.css' type='text/css' media='screen'>
+        <link rel="icon" type="img/png" href="img/icon.png" property="stylesheet">
 <!--        <meta description="The Institute of Electrical and Electronics Engineers at the
               University of Vermont is a resource that provides support for electrical 
               engineering students outside the classroom.">-->
@@ -25,15 +26,3 @@
     </head>
 
     <body>
-        <!--######################## facebook ##################################-->
-        <div id="fb-root"></div>
-        <script>(function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id))
-                    return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
-        <!--######################## end facebook##################################-->

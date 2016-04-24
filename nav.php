@@ -1,8 +1,19 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<nav>
+    <!--<img class= "uvmlogo" src="uvmlogo.bmp" alt="UVM Logo">-->
+    <a href="index.php"><img class="logo" src="img/ieeeLogo.jpg" alt="logo"></a>
+    <div class="header">
+        <ol class="navOl">
+            <li class="navLi"><a href="index.php">Home</a></li>
+            <li class="line"><img class="seperateLine" src="img/vertical-line.png" alt="seperateLine"></li>
+            <li class="navLi"><a href="events.php">Events</a></li>
+            <li class="line"><img class="seperateLine" src="img/vertical-line.png" alt="seperateLine"></li>
+            <li class="navLi"><a href="calendar.php">Calendar</a></li>
+            <li class="line"><img class="seperateLine" src="img/vertical-line.png" alt="seperateLine"></li>
+            <li class="navLi"><a href="projects.php">Projects</a></li>
+            <li class="line"><img class="seperateLine" src="img/vertical-line.png" alt="seperateLine"></li>
+            <li class="navLi"><a href="officers.php">Officers</a></li>
+            <li class="line"><img class="seperateLine" src="img/vertical-line.png" alt="seperateLine"></li>
+            <li class="navLi"><a href="about.php">About us</a></li>
+        </ol>
+    </div>
+</nav>
