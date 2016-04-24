@@ -9,11 +9,11 @@
         </ul>
     </div>
     <div class="socialMedia">
-        <ol class="footerRight">
+        <ul class="footerRight">
             <li class="UVMLogo"><a target="_blank" href="https://www.uvm.edu"><img class="uvmlogo" src="img/uvmLogo.png"/></a></li>
             <li class="facebookLi"><a target="_blank" href="https://www.facebook.com/UVM.IEEE"><img class="fb" src="img/facebook.png"/></a></li>
             <li class="twitterLi"><a target="_blank" href="https://twitter.com/UvmIEEE"><img class="twitter" src="img/twitter.png"/></a></li>
-        </ol>
+        </ul>
     </div>
 </footer>
 </html>
