@@ -1,7 +1,8 @@
 <footer>
     <div class="resources">
         <ul class="resourcesOl">
-            <li class="resourcesLi"><a target="_blank" class="footerLink" href="http://www.uvmaero.org/">UVM AERO</a></li>
+            
+            <li class="resourcesLi"><img class="logo" src="img/AERO-logo.png" alt="uvm aero logo"><a target="_blank" class="footerLink" href="http://www.uvmaero.org/">UVM AERO</a></li>
             <li class="resourcesLi"><a target="_blank" class="footerLink" href="http://sites.ieee.org/gm/">IEEE GMS</a></li>
             <li class="resourcesLi"><a target="_blank" class="footerLink" href="https://www.asme.org/">ASME</a></li>
             <li class="resourceLi"><a target="_blank" class="footerLink" href="http://www.asce.org/">ASCE</a></li>

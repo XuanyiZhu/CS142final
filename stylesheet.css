@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -169,7 +170,19 @@ nav {
 
 }
 
+=======
+*{
+    font-family: font;
+}
+a {
+    text-decoration: none;
+}
+>>>>>>> c7dc4ac0a3d76c862f59d30571783c6f73229dcc
 /*!!!!!!!!!!>>>>>>>>>>>>>>>>>>HOME PAGE<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!*/
+/*>>>>>>>>>>>>>>>>>>nav<<<<<<<<<<<<<<<<<<<<<*/
+nav {
+    margin: 0 13% 0 13%;
+}
 
 /*>>>>>>>>>>>>>>>>>>nav<<<<<<<<<<<<<<<<<<<<<*/
 nav {
@@ -202,11 +215,19 @@ ol.navOl{
 img.left-arrow,  img.right-arrow{
     width: 100%;
 }
+<<<<<<< HEAD
 .homeSlide{
     position:relative;
     width:73%;
     margin:2% auto 2% auto;
     height:43vw;
+=======
+.homeSlide {
+    position: relative;
+    width: 73%;
+    margin: 2% auto 2% auto;
+    height: 43vw;
+>>>>>>> c7dc4ac0a3d76c862f59d30571783c6f73229dcc
 }
 @media screen and (max-width:600px){
     li.rightArrow{float:none}
@@ -214,7 +235,7 @@ img.left-arrow,  img.right-arrow{
 .leftArrow{
     float:left;
     padding-left: 16px;
-    bottom: 20em;
+    bottom: 20vw;
     position: relative;
     width:2%;
 }
@@ -251,7 +272,10 @@ img.left-arrow,  img.right-arrow{
     color:#fff;
 }
 /*>>>>>>>>>>>>>>>>>>home page nav<<<<<<<<<<<<<<<<<<<<<*/
+<<<<<<< HEAD
 
+=======
+>>>>>>> c7dc4ac0a3d76c862f59d30571783c6f73229dcc
 img.logo {
     width: 14%;
 }
@@ -287,6 +311,14 @@ body{
 nav ol {
     text-align: center;
 }
+<<<<<<< HEAD
+=======
+
+/*>>>>>>>>>>>>>>>>>>footer<<<<<<<<<<<<<<<<<<<<<*/
+nav ol {
+    text-align: center;
+}
+>>>>>>> c7dc4ac0a3d76c862f59d30571783c6f73229dcc
 .resources, .socialMedia, ol.footerRight li, ol.footerRight {
     display: inline-block;
 }
@@ -296,9 +328,12 @@ li.facebookLi, li.twitterLi {
     display: inline-block;
     padding: 1% 12% 1% 1%;
 }
+<<<<<<< HEAD
 ul.resources{
     list-style: none;  
 }
+=======
+>>>>>>> c7dc4ac0a3d76c862f59d30571783c6f73229dcc
 img.twitter, img.fb, img.uvmlogo{
     width: 100%;
 }
@@ -307,9 +342,12 @@ footer {
     padding: 2% 10% 2% 10%;
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     background-color: rgba(0, 114, 168, 0.19);
     border-radius: 10px 10px 0px 0px;
     
+=======
+>>>>>>> c7dc4ac0a3d76c862f59d30571783c6f73229dcc
 }
 footer div{
     width:50%;
@@ -322,6 +360,7 @@ li.UVMLogo {
 .socialMedia {
     float: right;
 }
+<<<<<<< HEAD
 
 
 
@@ -363,3 +402,10 @@ a{
     float:left;
     width:10%;
 }
+=======
+@font-face{
+    font-family: font;
+    src:url("teen.ttf");
+}
+
+>>>>>>> c7dc4ac0a3d76c862f59d30571783c6f73229dcc

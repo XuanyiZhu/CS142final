@@ -7,9 +7,15 @@ include 'nav.php';
 <!--########################slide pictures##################################-->
 <div class="homeSlide" >
     
+<<<<<<< HEAD
     <img class="slides" src="img/Slideshow gallery/IEEE arduino workshop 2015.jpg" alt="">
     <img class="slides" src="img/Slideshow gallery/IEEE_Conference.jpg" alt="">
     <img class="slides" src="img/Slideshow gallery/IEEE seminars.jpg" alt="">
+=======
+    <img class="slides" src="img/Slideshow gallery/News 1/IEEE arduino workshop 2015.jpg" alt="">
+    <img class="slides" src="img/Slideshow gallery/News 5/IEEE_Conference.jpg" alt="">
+    <img class="slides" src="img/Slideshow gallery/News 3/IEEE seminars.jpg" alt="">
+>>>>>>> c7dc4ac0a3d76c862f59d30571783c6f73229dcc
 
     <div class="leftArrow" onclick="plusDivs(-1)"><img class="left-arrow" src="img/left-arrow.png" alt="left arrow"></div>
     <div class="rightArrow" onclick="plusDivs(1)"><img class="right-arrow" src="img/right-arrow.png" alt="right arrow"></div>
