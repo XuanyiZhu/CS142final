@@ -1,4 +1,14 @@
+*{
+    font-family: font;
+}
+a {
+    text-decoration: none;
+}
 /*!!!!!!!!!!>>>>>>>>>>>>>>>>>>HOME PAGE<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!*/
+/*>>>>>>>>>>>>>>>>>>nav<<<<<<<<<<<<<<<<<<<<<*/
+nav {
+    margin: 0 13% 0 13%;
+}
 
 /*>>>>>>>>>>>>>>>>>>home page image slide<<<<<<<<<<<<<<<<<<<<<*/
 .slides {
@@ -17,11 +27,11 @@
 img.left-arrow,  img.right-arrow{
     width: 100%;
 }
-.homeSlide{
-    position:relative;
-    width:80%;
-    margin:2% auto 2% auto;
-    height:40em;
+.homeSlide {
+    position: relative;
+    width: 73%;
+    margin: 2% auto 2% auto;
+    height: 43vw;
 }
 @media screen and (max-width:600px){
     li.rightArrow{float:none}
@@ -29,7 +39,7 @@ img.left-arrow,  img.right-arrow{
 .leftArrow{
     float:left;
     padding-left: 16px;
-    bottom: 20em;
+    bottom: 20vw;
     position: relative;
     width:2%;
 }
@@ -66,9 +76,6 @@ img.left-arrow,  img.right-arrow{
     color:#fff;
 }
 /*>>>>>>>>>>>>>>>>>>home page nav<<<<<<<<<<<<<<<<<<<<<*/
-img.uvmlogo {
-    width: 18%;
-}
 img.logo {
     width: 14%;
 }
@@ -89,6 +96,42 @@ article {
 h1 {
     padding: 0 10% 0 10%;
 }
-footer{
-    background: url('img/bg-texture.png');
+
+/*>>>>>>>>>>>>>>>>>>footer<<<<<<<<<<<<<<<<<<<<<*/
+nav ol {
+    text-align: center;
 }
+.resources, .socialMedia, ol.footerRight li, ol.footerRight {
+    display: inline-block;
+}
+li.facebookLi, li.twitterLi {
+    width: 7%;
+    min-width: 2em;
+    display: inline-block;
+    padding: 1% 12% 1% 1%;
+}
+img.twitter, img.fb, img.uvmlogo{
+    width: 100%;
+}
+footer {
+    background: url('img/bg-texture.png');
+    padding: 2% 10% 2% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+footer div{
+    width:50%;
+}
+li.UVMLogo {
+    width: 29%;
+    list-style: none;
+    min-width: 9em;
+}
+.socialMedia {
+    float: right;
+}
+@font-face{
+    font-family: font;
+    src:url("teen.ttf");
+}
+

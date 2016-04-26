@@ -5,9 +5,10 @@ include 'nav.php';
 
 <!--########################slide pictures##################################-->
 <div class="homeSlide" >
-    <img class="slides" src="img/1.png" alt="">
-    <img class="slides" src="img/2.png" alt="">
-    <img class="slides" src="img/3.png" alt="">
+    
+    <img class="slides" src="img/Slideshow gallery/News 1/IEEE arduino workshop 2015.jpg" alt="">
+    <img class="slides" src="img/Slideshow gallery/News 5/IEEE_Conference.jpg" alt="">
+    <img class="slides" src="img/Slideshow gallery/News 3/IEEE seminars.jpg" alt="">
 
     <div class="leftArrow" onclick="plusDivs(-1)"><img class="left-arrow" src="img/left-arrow.png" alt="left arrow"></div>
     <div class="rightArrow" onclick="plusDivs(1)"><img class="right-arrow" src="img/right-arrow.png" alt="right arrow"></div>
@@ -17,6 +18,27 @@ include 'nav.php';
         <span class="badge demo border transparent hover-white" onclick="currentDiv(3)"></span>
     </div>
 </div>
+<script>
+    var index = 0;
+    carousel();
+    function currentDiv(n) {
+        showDivs(slideIndex = n);
+    }
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        index++;
+        if (index > x.length) {
+            index = 1;
+        }
+        x[index - 1].style.display = "block";
+        setTimeout(carousel, 4000);
+    }
+</script>
 <script>
     var slideIndex = 1;
     showDivs(slideIndex);
