@@ -8,36 +8,44 @@ include "nav.php";
 
 
 <div class="container">
-        	<div class="containter marketing">
-            	<div class="row featurette">
+        	<div class="containerMarketing">
+            	<div class="rowFeaturette">
                 	<div class="col-md-7">
                     	<h2 class="featurette-heading">
                         President 
                      	</h2>
                         <p class="lead">
-                        Kaitlyn Mayberry is a senior Electrical Engineering major. She is particularly interested in renewable energy. This past summer Kaitlyn interned with GE Aviation in Rutland, VT, where she contributed to quality improvement and facilities planning. At UVM she plays the flute and piccolo in the Symphony Orchestra and is also a trip leader for Alternative Spring Break. In her free time, Kaitlyn enjoys biking, hiking, Bikram yoga, and cooking.
+                        Anna Towle is a senior Electrical Engineering major.
+                        She plans on attending graduate school for energy engineering,
+                        with a specific focus on renewable energy and smart 
+                        grid technology. Anna has been doing research with Dr.
+                        Mads Almassalkhi on Energy Hub Optimization creating power 
+                        flow models of the UVM campus. In 2015 Anna was awarded the 
+                        IEEE PES Young Engineer Scholarship, which is awarded to students
+                        seeking a career in the power industry. Anna is also an active member 
+                        of the Salsa Dance Team at UVM.
                         </p>
                     </div>
                     <div class="col-md-5">
-                        <img class="img-circle img-reponsive" src="img/president.jpg" alt="" />
+                        <img class="img-circle" src="img/annaPrez.JPG" alt="null" />
                     </div>
-                </div><!-- row featurette -->
+                </div><!-- rowFeaturette -->
                 <hr class="featurette-divider" />
-                <div class="row featurette">
+                <div class="rowFeaturette">
                 	<div class="col-md-5">
-                    	<img class="img-circle img-reponsive" src="img/vp.jpg" alt="" />
+                            <img class="img-circle" src="img/peterVP.JPG" alt="null" />
                     </div>
                     <div class="col-md-7">
                     	<h2 class="featurette-heading">
                         Vice President
                      	</h2>
                         <p class="lead">
-                        Connor Yamada is a senior majoring in Electrical Engineering. He has interests in embedded systems, programming, and financial services. In the past he has interned at AllianceBernstein, Noise New York, and JWT New York. In his free time Connor likes to fence, play tennis, and go out exploring with his camera.
+                       Tariye Peter is a senior majoring in Electrical Engineering. He has interests in embedded systems, programming, and financial services. In the past he has interned at AllianceBernstein, Noise New York, and JWT New York. In his free time Connor likes to fence, play tennis, and go out exploring with his camera.
                         </p>
                     </div>
-                </div><!-- row featurette -->	
+                </div><!-- rowFeaturette -->	
                 <hr class="featurette-divider" />	
-                <div class="row featurette">
+                <div class="rowFeaturette">
                 	<div class="col-md-7">
                     	<h2 class="featurette-heading">
                         Treasurer 
@@ -47,25 +55,35 @@ include "nav.php";
                         </p>
                     </div>
                     <div class="col-md-5">
-                        <img class="img-circle img-reponsive" src="img/treasurer.png" alt="" />
+                        <img class="img-circle" src="img/treasurer.png" alt="" />
                     </div>
-                </div><!-- row featurette -->
+                </div><!-- rowFeaturette -->
                  <hr class="featurette-divider" />
-                <div class="row featurette">
+                <div class="rowFeaturette">
                 	<div class="col-md-5">
-                            <img class="img-circle img-reponsive" src="img/eventco.jpg" alt="caitlin" />
+                            <img class="img-circle" src="img/connorEC.JPG" alt="Connor" />
                     </div>
                     <div class="col-md-7">
                     	<h2 class="featurette-heading">
                         Event Coordinator
                      	</h2>
                         <p class="lead">
-                        Caitlin Bliss is currently a senior electrical engineering major. She became interested in engineering because math and science, two of her favorite subjects, were such a large part of engineering. The past two years she has interned at Green Mountain Power in Vermont and fell in love with the utilities side of engineering. Outside of school she loves to ski, hangout with friends and eat. She considers herself addicted to food. 
+                        Connor Myers is a senior Electrical Engineering major.
+                        He has special interests in power systems, more specifically 
+                        microgrid design and renewable energy generation. 
+                        This past summer Connor Interned with Hallam-ICS in their
+                        integrated controls systems team. He worked with lead engineers
+                        on toxic gas monitoring systems for FSU, MIT, and IBM, and 
+                        redrew the entire IO network for Burlington's McNeil power plant
+                        in AutoCAD. In 2015 he was awarded the IEEE PES Young Engineer
+                        Scholarship, which is awarded to students seeking a career in the 
+                        power industry. In his spare time Connor enjoys skiing, ice hockey,
+                        hiking, and traveling.
                         </p>
                     </div>
-                </div><!-- row featurette -->
+                </div><!-- rowFeaturette -->
                 <hr class="featurette-divider" />	
-                <div class="row featurette">
+                <div class="rowFeaturette">
                 	<div class="col-md-7">
                     	<h2 class="featurette-heading">
                         Academic Advisor
@@ -75,12 +93,13 @@ include "nav.php";
                         </p>
                     </div>
                     <div class="col-md-5">
-                        <img class="img-circle img-reponsive" src="img/advisor.jpg" alt="" />
+                        <img class="img-circle" src="img/advisor.jpg" alt="" />
                     </div>
             </div>
         </div>	
     
-
+</div>
+    
 
 </body>
 

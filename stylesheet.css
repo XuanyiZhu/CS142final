@@ -1,4 +1,189 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 18, 2016, 10:52:35 AM
+    Author     : emilysmith
+*/
+
+*{
+    font-family: font;
+}
+
+@font-face{
+    font-family: font;
+    src:url("teen.ttf");
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.project {
+    display:inline-block;
+    width: 20%;
+
+    margin: 1em;
+    //border: 2px solid black;
+
+}
+
+
+
+/*OFFICERS PAGE Officers*/
+
+img.img-circle {
+    border-radius: 50%;
+    margin:auto;
+    max-width: 350px;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-7{
+    float: left;
+    width:58%;
+    padding:1.7em
+}
+
+.col-md-5{
+    float:left;
+    padding-top: 1em;
+    padding-bottom:.5em;
+}
+
+
+
+.container, .containerMarketing, .rowFeaturette, .col-md-5, .col-md-7{
+    display: inline-block;
+}
+.lead{
+    font-size:21px;
+    line-height: 1.4;
+}
+.featurette-heading{
+    font-size: 30px;
+    padding-left:40%
+}
+
+
+
+/*EVENTS AND PRoJECT SYTLING _ EMIly */
+
+
+.event {
+    display:inline-block;
+    width: 20%;
+    float: left;
+    padding: .5em;
+    margin: 1em 2em 1em 2em;
+    border: black 1pt dashed;
+
+}
+
+.project{
+    display:inline-block;
+    width: 20%;
+    float: left;
+    padding: .5em;
+    margin: 1em 2em 1em 2em;
+    border: black 1pt dashed;
+
+}
+
+article.eventArticle{
+
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+
+article.projectArticle{
+    margin:auot;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+
+}
+
+img.eventPhoto{
+    max-width: 30%;
+}
+/* Button */ 
+
+a {
+    color: black;
+}
+/*I changed the button- em*/
+a.div-button{
+    background-color: rgba(255,152,2,1);
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 5%;
+
+} 
+/* TEXT STYLING @ TEXT STYLING @ TEXT STYLING @ TEXT STYLING @ */ 
+
+h1 {
+    font-size: 2em;
+
+}
+
+h2 {
+    font-size: 1em;
+
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    font-size: .8em;
+}
+
+
+
+header {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+
+}
+
 /*!!!!!!!!!!>>>>>>>>>>>>>>>>>>HOME PAGE<<<<<<<<<<<<<<<<<<<<<!!!!!!!!!!*/
+
+/*>>>>>>>>>>>>>>>>>>nav<<<<<<<<<<<<<<<<<<<<<*/
+nav {
+    margin: 0 13% 0 13%;
+}
+
+ol.navOl{
+    border-bottom: 10px solid #0072A8;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    
+}
+
+
 
 /*>>>>>>>>>>>>>>>>>>home page image slide<<<<<<<<<<<<<<<<<<<<<*/
 .slides {
@@ -19,9 +204,9 @@ img.left-arrow,  img.right-arrow{
 }
 .homeSlide{
     position:relative;
-    width:80%;
+    width:73%;
     margin:2% auto 2% auto;
-    height:40em;
+    height:43vw;
 }
 @media screen and (max-width:600px){
     li.rightArrow{float:none}
@@ -66,9 +251,7 @@ img.left-arrow,  img.right-arrow{
     color:#fff;
 }
 /*>>>>>>>>>>>>>>>>>>home page nav<<<<<<<<<<<<<<<<<<<<<*/
-img.uvmlogo {
-    width: 18%;
-}
+
 img.logo {
     width: 14%;
 }
@@ -84,11 +267,99 @@ img.logo {
 /*>>>>>>>>>>>>>>>>>>home page body<<<<<<<<<<<<<<<<<<<<<*/
 article {
     margin:1% auto 1% auto;
-    width: 80%;
+    width:80%;
+
 }
-h1 {
-    padding: 0 10% 0 10%;
+
+
+
+body{
+    background-image:  url('img/asanoha-400px.png');
+
 }
-footer{
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>FOOTER STYLE FOOTER <<<<<<<<<<<<<<<<<<<<<*/
+
+
+nav ol {
+    text-align: center;
+}
+.resources, .socialMedia, ol.footerRight li, ol.footerRight {
+    display: inline-block;
+}
+li.facebookLi, li.twitterLi {
+    width: 7%;
+    min-width: 2em;
+    display: inline-block;
+    padding: 1% 12% 1% 1%;
+}
+ul.resources{
+    list-style: none;  
+}
+img.twitter, img.fb, img.uvmlogo{
+    width: 100%;
+}
+footer {
     background: url('img/bg-texture.png');
+    padding: 2% 10% 2% 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 114, 168, 0.19);
+    border-radius: 10px 10px 0px 0px;
+    
+}
+footer div{
+    width:50%;
+}
+li.UVMLogo {
+    width: 29%;
+    list-style: none;
+    min-width: 9em;
+}
+.socialMedia {
+    float: right;
+}
+
+
+
+
+
+img{
+    margin: auto;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>CALENDAR CALENDAR CALENDAR <<<<<<<<<<<<<*/
+
+
+img.logo {
+    float:left;
+    width: 14%;
+}
+/*h1{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #F37D2C;
+    padding: 10px;
+}*/
+.navLi, .navOl, .line, .header{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+.seperateLine{
+    height: 1.5em;
+    padding:0 6px 0 6px;
+    margin-bottom: -5px;
+}
+
+
+.date{
+    float:left;
+    width:10%;
 }
